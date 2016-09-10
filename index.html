@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Animal Gif Gallary</title>
+
+	<link rel="stylesheet" type="text/css" href="CSS/gallary.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style type="text/css">
+	body{
+		background-image: url('assets/images/background.jpg');
+	}
+	</style>
+</head>
+<body>
+
+<div class="container-fluid">
+	<div id='navBar'>
+		<img id='header' src="assets/images/header.png">
+		<div class="text-center" id="buttonSpot"></div>
+	</div>
+
+<div class="container-fluid">
+	<form class="text-center" id="new-animal">
+		<label for="animalInput">Want to Add an Animal?</label>
+		<input type="text" id="animalInput">
+		<input class='btn btn-default' id="addAnimal" type="submit" value="Sure Thing!">
+	</form>
+
+	<div class="text-center" id="gifArea"></div>
+</div>
+
+<footer class="text-center">
+	<p> Gifs from <a href="giphy.com" target="_blank">Giphy</a></p>
+	<a href="index.html">RESTART</a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src='Javascript/gallary.js'></script>
+</body>
+</html>
